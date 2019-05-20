@@ -1,0 +1,23 @@
+form#add_candidate_form{
+    input[type="text"], textarea{
+    font-size: 30px;
+    }
+    textarea {
+        vertical-align: top;
+    }
+    label{
+        font-size: 30px;
+    }
+    .submit {
+        padding: 10px 20px;
+        border-radius: 20%;
+        background-color: #f5a;
+        color: #fff;
+        font-size: 30px;
+    }
+}
+.back-to-candidates{
+    font-size: 30px;
+    text-decoration: none;
+    color: #f16;
+}
