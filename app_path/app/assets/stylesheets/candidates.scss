@@ -1,9 +1,11 @@
 form#add_candidate_form{
     input[type="text"], textarea{
     font-size: 30px;
+    width: 300px;
     }
     textarea {
         vertical-align: top;
+        height: 200px;
     }
     label{
         font-size: 30px;
@@ -14,6 +16,9 @@ form#add_candidate_form{
         background-color: #f5a;
         color: #fff;
         font-size: 30px;
+    }
+    div{
+        margin: 10px;
     }
 }
 .back-to-candidates{
